@@ -16,6 +16,12 @@ export default function Cards(props) {
           </span>
         </div>
         <h1>{props.items.title}</h1>
+        <div className='date'>
+          <span>
+            {props.items.startDate} - {props.items.endDate}
+          </span>
+        </div>
+        <p className='description'> {props.items.description} </p>
       </div>
     </div>
   )
