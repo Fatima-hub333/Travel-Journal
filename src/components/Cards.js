@@ -1,5 +1,5 @@
 import React from 'react'
-import pathImage from './images/Path.png'
+import pathImage from '../images/Path.png'
 
 export default function Cards(props) {
   return (
