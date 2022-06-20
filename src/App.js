@@ -1,13 +1,12 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Cards from './components/Cards'
-import Data from './data'
+/* eslint-disable react/jsx-key */
+import React from 'react';
+import Navbar from './components/Navbar';
+import Cards from './components/Cards';
+import Data from './data';
 import './App.css';
 
 export default function App() {
-  const listOfCards = Data.map((CardsData) => {
-    return <Cards items={CardsData} />
-  })
+  const listOfCards = Data.map((CardsData) => <Cards items={CardsData} />);
 
   return (
     <div className="main">
@@ -16,5 +15,5 @@ export default function App() {
         {listOfCards}
       </div>
     </div>
-  )
+  );
 }

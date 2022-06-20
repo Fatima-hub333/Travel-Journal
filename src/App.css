@@ -78,6 +78,7 @@ main {
   letter-spacing: 0.15em;
   vertical-align: text-top;
 }
+
 .card-link {
   margin: 0 15px;
   letter-spacing: normal;
@@ -87,6 +88,7 @@ main {
 .card-link:link {
   color: #918e9b;
 }
+
 .card-link:visited {
   color: #f55a5a;
 }
@@ -136,13 +138,14 @@ main {
 @media screen and (max-width: 600px) {
   .card-body {
     width: 100%;
-    height: fit-content;
+    height: 100%;
     flex-direction: column;
   }
 
   .card-img {
     width: 100%;
     height: 100px;
+    object-fit: cover;
   }
 
   .card-info {
@@ -158,10 +161,6 @@ main {
   .description {
     width: 100%;
     height: 100%;
-  }
-
-  .card-img {
-    object-fit: cover;
   }
 }
 
