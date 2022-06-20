@@ -22,6 +22,10 @@ It was a really cool thing to exercise react, js and css! I used components, que
   - github
   - npm
 
+![Screenshot](/src/images/travel-journal.png)
+
+## [Live Demo](https://lucent-palmier-fb9eb3.netlify.app/)
+
 ## Getting Started
 
 **This are steps on how to install the react app.**
